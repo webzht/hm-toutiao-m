@@ -4,6 +4,7 @@ import router from './router'
 import store from './store'
 import Vant from 'vant' // 引入vant组件库
 import 'vant/lib/index.css' // 引入vant的样式
+import 'amfe-flexible'
 Vue.use(Vant) // 注册Vant的所有组件
 Vue.config.productionTip = false
 
